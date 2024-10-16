@@ -78,6 +78,7 @@ public class BubbleSort {
             System.out.println();
     
             bubbleSort(fileArray);
+            writeArrayToFile(fileArray, filename+"_sorted");
     
             System.out.println("Array after sorting:");
             for (int num : fileArray) {
